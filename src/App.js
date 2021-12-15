@@ -1,16 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
+import Table from './Table.js';
+import SideBarMenu from './SideBarMenu.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Hello World
-        </p>
-      </header>
-    </div>
-  );
+function MyGardenPage() {
+    return(
+        <div className={"plantPage"}>
+            <Header/>
+            <SideBarMenu/>
+            <Table data={ PLANTS }/>
+        </div>
+    )
 }
 
-export default App;
+const PLANTS = [
+    {name: "Carrots", earliestDate: "05/27/2021", latestDate: "07/27/2021"},
+    {name: "Broccoli", earliestDate: "05/27/2021", latestDate: "07/27/2021"},
+    {name: "Tomatoes", earliestDate: "05/27/2021", latestDate: "07/27/2021"},
+    {name: "Peppers", earliestDate: "05/27/2021", latestDate: "07/27/2021"},
+    {name: "Strawberries", earliestDate: "05/27/2021", latestDate: "07/27/2021"},
+    {name: "Zinnias", earliestDate: "05/27/2021", latestDate: "07/27/2021"}
+];
+
+export default MyGardenPage;
+
