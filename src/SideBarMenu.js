@@ -1,10 +1,10 @@
-import ToggleMenu from './ToggleMenu.js';
+import HamburgerMenu from './HamburgerMenu.js';
 import MenuList from './MenuList.js';
 
 function SideBarMenu() {
     return (
         <div className={"SideBarMenu"}>
-            <ToggleMenu/>
+            <HamburgerMenu/>
             <MenuList/>
         </div>
     )
