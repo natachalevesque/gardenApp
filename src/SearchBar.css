@@ -1,0 +1,15 @@
+.searchBarForm {
+    display: flex;
+    border: .5px solid lightgrey;
+    border-radius: 20px;
+}
+
+.searchBar {
+    border: none;
+    outline: none;
+    margin: 5px;
+}
+
+.searchIcon {
+    margin: 5px 10px;
+}

@@ -1,4 +1,9 @@
 .MenuList li {
     list-style-type: none;
-    display: inline-flex;
+}
+
+.MenuList {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
 }
