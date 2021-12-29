@@ -1,13 +1,12 @@
 import './App.css';
 import Header from './Header.js';
 import Table from './Table.js';
-import SideBarMenu from './SideBarMenu.js';
+import Navbar from './Navbar.js';
 
 function MyGardenPage() {
     return(
         <div className={"plantPage"}>
-            <Header/>
-            <SideBarMenu/>
+            <Navbar/>
             <Table data={ PLANTS }/>
         </div>
     )

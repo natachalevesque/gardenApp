@@ -5,7 +5,6 @@ function Header() {
     return (
         <div className={"header"}>
             <Title title={"My Garden"}/>
-            <SearchBar/>
         </div>
     )
 }

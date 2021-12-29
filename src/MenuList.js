@@ -1,3 +1,5 @@
+import './MenuList.css'
+
 function MenuList() {
     return (
         <ul className={"MenuList"}>
