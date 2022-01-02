@@ -1,3 +1,4 @@
+import './Table.css'
 import PlantRow from './PlantRow.js';
 
 function Table({ data }) {
@@ -14,7 +15,7 @@ function Table({ data }) {
     return (
         <table className={"Table"}>
             <thead>
-            <tr>
+            <tr className={"TableHeader"}>
                 <th>Name</th>
                 <th>Earliest Date</th>
                 <th>Latest Date</th>

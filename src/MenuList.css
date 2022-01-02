@@ -1,9 +1,19 @@
-.MenuList li {
-    list-style-type: none;
+@media (min-width: 650px) {
+
+    .MenuList li {
+        list-style-type: none;
+        color: white;
+    }
+
+    .MenuList {
+        display: flex;
+        justify-content: space-between;
+        width: 33%;
+    }
 }
 
-.MenuList {
-    display: flex;
-    justify-content: space-between;
-    width: 33%;
+@media (max-width: 650px) {
+    .MenuList {
+        display: none;
+    }
 }

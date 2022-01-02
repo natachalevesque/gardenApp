@@ -1,6 +1,6 @@
 .searchBarForm {
     display: flex;
-    border: .5px solid lightgrey;
+    border: .5px solid white;
     border-radius: 20px;
 }
 
@@ -8,8 +8,5 @@
     border: none;
     outline: none;
     margin: 5px;
-}
-
-.searchIcon {
-    margin: 5px 10px;
+    background: darkseagreen;
 }
