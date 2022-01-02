@@ -1,9 +1,13 @@
 import './SearchBar.css'
 
-function SearchBar() {
+function SearchBar({ searchText, setSearchText }) {
     return (
         <form className={"searchBarForm"}>
-            <input type="text" placeholder="Search..." className={"searchBar"}/>
+            <input type="text"
+                   value={ searchText }
+                   placeholder="Search..."
+                   className={"searchBar"}
+                   onChange={e => setSearchText(e.target.value)}/>
         </form>
     )
 }

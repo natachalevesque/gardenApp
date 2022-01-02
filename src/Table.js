@@ -2,10 +2,19 @@ import './Table.css'
 import PlantRow from './PlantRow.js';
 import NewRow from './NewRow.js';
 
-function Table({ data }) {
+
+function Table({ data, searchText }) {
     const rows = [];
 
     data.forEach((row) => {
+        console.log(row.name)
+        if (
+            row.name.toLowerCase().indexOf(
+                searchText.toLowerCase()
+            ) === -1
+        ) {
+            return;
+        }
         rows.push(
             <PlantRow
                 row={row}

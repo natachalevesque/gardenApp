@@ -1,12 +1,16 @@
 import './App.css';
 import Table from './Table.js';
 import Navbar from './Navbar.js';
+import { useState } from 'react';
 
 function MyGardenPage() {
+
+    const [searchText, setSearchText] = useState('');
+
     return(
         <div className={"plantPage"}>
-            <Navbar/>
-            <Table data={ PLANTS }/>
+            <Navbar search={ searchText } setSearchText={ setSearchText } />
+            <Table data={ PLANTS } searchText={ searchText } />
         </div>
     )
 }
