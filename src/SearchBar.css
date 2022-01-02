@@ -1,12 +1,19 @@
-.searchBarForm {
-    display: flex;
-    border: .5px solid white;
-    border-radius: 20px;
+@media (min-width: 500px) {
+    .searchBarForm {
+        border: .5px solid white;
+        border-radius: 20px;
+    }
+
+    .searchBar {
+        border: none;
+        outline: none;
+        margin: 5px;
+        background: darkseagreen;
+    }
 }
 
-.searchBar {
-    border: none;
-    outline: none;
-    margin: 5px;
-    background: darkseagreen;
+@media (max-width: 500px) {
+    .searchBarForm {
+        display: none;
+    }
 }

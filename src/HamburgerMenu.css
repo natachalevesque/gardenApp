@@ -1,12 +1,13 @@
-@media (min-width: 650px) {
+@media (min-width: 770px) {
     .hamburger-menu {
         display: none;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 770px) {
     .hamburger-menu {
         position: relative;
+        margin: 0 1em 0 0;
     }
 
     .hamburger-menu-checkbox {

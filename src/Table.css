@@ -14,3 +14,7 @@
     background: silver;
     border-radius: .5em;
 }
+
+.TableHeader h4 {
+    margin: .25em;
+}

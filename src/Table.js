@@ -1,5 +1,6 @@
 import './Table.css'
 import PlantRow from './PlantRow.js';
+import NewRow from './NewRow.js';
 
 function Table({ data }) {
     const rows = [];
@@ -11,18 +12,23 @@ function Table({ data }) {
                 key={row.name}/>
         );
     });
+    rows.push(
+        <NewRow
+            key={0}
+        />
+        );
 
     return (
-        <table className={"Table"}>
-            <thead>
-            <tr className={"TableHeader"}>
-                <th>Name</th>
-                <th>Earliest Date</th>
-                <th>Latest Date</th>
-            </tr>
-            </thead>
-            <tbody>{rows}</tbody>
-        </table>
+        <div className={"Table"}>
+            <div>
+                <div className={"TableHeader"}>
+                    <h4>Name</h4>
+                    <h4>Earliest Date</h4>
+                    <h4>Latest Date</h4>
+                </div>
+            </div>
+            <div>{rows}</div>
+        </div>
     )
 }
 

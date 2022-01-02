@@ -1,4 +1,4 @@
-@media (min-width: 650px) {
+@media (min-width: 769px) {
 
     .MenuList li {
         list-style-type: none;
@@ -12,7 +12,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 769px) {
     .MenuList {
         display: none;
     }
