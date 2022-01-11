@@ -1,9 +1,9 @@
 import './Navbar.css';
 
 import HamburgerMenu from './HamburgerMenu.js';
-import Header from "./Header";
+import Header from "../HeadersAndTitles/Header";
 import MenuList from './MenuList.js';
-import SearchBar from "./SearchBar";
+import SearchBar from "../SearchBar";
 
 
 function Navbar({ searchText, setSearchText }) {

@@ -1,9 +1,0 @@
-.TableRow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.TableCell {
-    padding: 5px;
-}

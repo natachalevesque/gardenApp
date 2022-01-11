@@ -1,6 +1,6 @@
 import './App.css';
-import Table from './Table.js';
-import Navbar from './Navbar.js';
+import PlantList from './PlantList.js';
+import Navbar from './Menus/Navbar.js';
 import { useState } from 'react';
 
 function MyGardenPage() {
@@ -10,7 +10,7 @@ function MyGardenPage() {
     return(
         <div className={"plantPage"}>
             <Navbar search={ searchText } setSearchText={ setSearchText } />
-            <Table data={ PLANTS } searchText={ searchText } />
+            <PlantList plantData={ PLANTS } searchText={ searchText } />
         </div>
     )
 }

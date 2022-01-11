@@ -1,6 +1,6 @@
 @media (min-width: 500px) {
     .searchBarForm {
-        border: .5px solid white;
+        border: .5px solid #8FBC8F;
         border-radius: 20px;
     }
 
@@ -8,7 +8,7 @@
         border: none;
         outline: none;
         margin: 5px;
-        background: darkseagreen;
+        background: #fff;
     }
 }
 
