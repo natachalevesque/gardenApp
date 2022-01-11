@@ -1,0 +1,21 @@
+.Plant {
+    background: #ffffff;
+    border-radius: .25rem;
+    margin: .25rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 0.5px 3px #d4d8e8;
+}
+
+@media (min-width: 1025px) {
+    .Plant {
+        width: 60%;
+    }
+}
+
+.Plant:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}

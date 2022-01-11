@@ -1,3 +1,5 @@
+import './Plant.css'
+
 function Plant({ plant }) {
     return (
         <div className={"Plant"}>
