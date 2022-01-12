@@ -3,10 +3,13 @@
     border-radius: .25rem;
     margin: .25rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
-    align-items: center;
     box-shadow: 0 0.5px 3px #d4d8e8;
+    contain: content;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6rem;
 }
 
 @media (min-width: 1025px) {
@@ -18,4 +21,11 @@
 .Plant:hover {
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
+}
+
+.Plant img {
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+    margin: 0 1rem 0 0;
 }
