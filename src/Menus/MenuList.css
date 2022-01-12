@@ -17,3 +17,9 @@
         display: none;
     }
 }
+
+.MenuList li:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
