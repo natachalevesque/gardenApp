@@ -1,4 +1,11 @@
-#AddRow input {
-    border: solid .05em darkseagreen;
-    border-radius: .5em;
+.AddPlant button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    border: solid .1rem #8FBC8F;
+    border-radius: .25rem;
+    padding: .25rem;
+}
+
+.AddPlant button:hover {
+    background-color: #8FBC8F;
 }

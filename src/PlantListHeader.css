@@ -1,0 +1,16 @@
+.PlantListHeader {
+    width: 100%;
+}
+
+.PlantListHeaderRowOne {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.PlantListHeaderForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+}

@@ -1,5 +1,6 @@
 import './PlantList.css'
 import Plant from './Plant.js';
+import PlantListHeader from './PlantListHeader'
 
 
 function PlantList({ plantData, searchText }) {
@@ -16,6 +17,7 @@ function PlantList({ plantData, searchText }) {
 
     return (
         <div className={"PlantList"}>
+            <PlantListHeader />
             {plants}
         </div>
     )
