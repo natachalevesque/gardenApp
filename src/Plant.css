@@ -1,36 +1,56 @@
-.Plant {
+.PlantLine{
     background: #ffffff;
-    border-radius: .25rem;
-    margin: .25rem;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
     display: flex;
-    flex-direction: row;
     width: 100%;
     box-shadow: 0 0.5px 3px #d4d8e8;
     contain: content;
     align-items: center;
-    justify-content: flex-start;
-    height: 6rem;
+    justify-content: space-between;
 }
 
 @media (min-width: 1025px) {
-    .Plant {
+    .PlantLine {
         width: 60%;
     }
 }
 
-.Plant:hover {
+.PlantLine:hover {
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
 }
 
-.Plant img {
+.PlantInfo img {
     height: 6rem;
     width: 6rem;
     object-fit: cover;
     margin: 0 1rem 0 0;
 }
 
+.PlantInfo {
+    display: flex;
+    align-items: center;
+}
+
 h3 {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
+}
+
+.removeButton {
+    color: grey;
+    border: none;
+    background: none;
+    margin: 1rem;
+    font-weight: 400;
+}
+
+.removeButton:hover {
+    color: #f81a09;
+    background: none;
+}
+
+.hide {
+   display: none;
 }

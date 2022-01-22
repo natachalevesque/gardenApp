@@ -1,11 +1,11 @@
 import './AddPlant.css';
 
-function AddPlant() {
+function AddPlant({ showPlantForm, setShowPlantForm }) {
 
     return (
         <div>
             <form className={"AddPlant"}>
-                <button type="button" name="add" onClick={console.log("Hello World")}>Add</button>
+                <button type="button" name="add" onClick={() => setShowPlantForm(!showPlantForm)}>Add</button>
             </form>
         </div>
     )

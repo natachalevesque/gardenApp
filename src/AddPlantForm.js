@@ -1,9 +1,9 @@
 import './AddPlantForm.css'
 
-function AddPlantForm() {
+function AddPlantForm({ showPlantForm }) {
 
     return (
-        <div className={"AddPlantForm"}>
+        <div className={"AddPlantForm"} style={{ display: showPlantForm ? "" : "none" }}>
             <div>
                 <div>
                     <label htmlFor="name">Name&nbsp;</label>
