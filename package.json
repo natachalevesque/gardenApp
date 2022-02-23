@@ -1,6 +1,6 @@
 {
   "homepage": "http://natachalevesque.github.io/gardenology",
-  "name": "my-app",
+  "name": "gardenology",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
