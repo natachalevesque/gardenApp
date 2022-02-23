@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gardenology/static/css/main.bac3117d.css",
+    "main.js": "/gardenology/static/js/main.5141b734.js",
+    "index.html": "/gardenology/index.html",
+    "main.bac3117d.css.map": "/gardenology/static/css/main.bac3117d.css.map",
+    "main.5141b734.js.map": "/gardenology/static/js/main.5141b734.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bac3117d.css",
+    "static/js/main.5141b734.js"
+  ]
+}
