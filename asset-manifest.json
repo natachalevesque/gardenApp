@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gardenology/static/css/main.b6a814cc.css",
+    "main.css": "/gardenology/static/css/main.7d839ad8.css",
     "main.js": "/gardenology/static/js/main.eedb2918.js",
     "index.html": "/gardenology/index.html",
-    "main.b6a814cc.css.map": "/gardenology/static/css/main.b6a814cc.css.map",
+    "main.7d839ad8.css.map": "/gardenology/static/css/main.7d839ad8.css.map",
     "main.eedb2918.js.map": "/gardenology/static/js/main.eedb2918.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6a814cc.css",
+    "static/css/main.7d839ad8.css",
     "static/js/main.eedb2918.js"
   ]
 }
