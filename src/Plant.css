@@ -31,9 +31,10 @@
 .PlantInfo {
     display: flex;
     align-items: center;
+    margin: 1rem;
 }
 
-h3 {
+.PlantInfo h3, p {
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
 }

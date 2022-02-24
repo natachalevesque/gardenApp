@@ -6,17 +6,20 @@ import { useState } from 'react'
 
 import './PlantListHeader.css'
 
-function PlantListHeader() {
+function PlantListHeader({plantData, setPlantData, setLastFrostDate, lastFrostDate}) {
     const [showPlantForm, setShowPlantForm] = useState(false)
 
     return (
         <div className={"PlantListHeader"}>
             <div className={"PlantListHeaderRowOne"}>
-                <LastFrostDate />
+                <LastFrostDate setLastFrostDate={setLastFrostDate} lastFrostDate={lastFrostDate}/>
                 <AddPlant showPlantForm={ showPlantForm } setShowPlantForm={ setShowPlantForm } />
             </div>
             <div className={"PlantListHeaderForm"}>
-                <AddPlantForm showPlantForm={ showPlantForm } />
+                <AddPlantForm showPlantForm={ showPlantForm }
+                              setShowPlantForm={ setShowPlantForm }
+                              plantData={ plantData }
+                              setPlantData={ setPlantData }/>
             </div>
         </div>
     )
