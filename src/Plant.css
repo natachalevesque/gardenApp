@@ -8,6 +8,7 @@
     contain: content;
     align-items: center;
     justify-content: space-between;
+    padding-right: 1rem;
 }
 
 @media (min-width: 1025px) {
@@ -31,7 +32,6 @@
 .PlantInfo {
     display: flex;
     align-items: center;
-    margin: 1rem;
 }
 
 .PlantInfo h3, p {
